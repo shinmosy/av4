@@ -1,13 +1,13 @@
 // Owner number
-global.owner = '6285807264974'
+global.owner = '628981574999'
 // Owner name
-global.owner_name = 'Hanya Creator'
+global.owner_name = 'Mosy'
 // Maximum upload file size limit (Default : 50 MB)
 global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
-global.cooldown = 3
+global.cooldown = 5
 // User Limitation (Default : 25)
-global.limit = 25
+global.limit = 40
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
@@ -24,10 +24,10 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Source version
 global.version = '5.4.7',
 // Footer text
-global.footer = 'Kanna bot'
+global.footer = 'ーSiBearー'
 // Global status
 global.status = Object.freeze({
-   wait: Func.texted('bold', 'Processed . . .'),
+   wait: Func.texted('bold', '⌛ Loading . . .'),
    invalid: Func.texted('bold', 'URL is Invalid!'),
    wrong: Func.texted('bold', 'Wrong format!'),
    getdata: Func.texted('bold', 'Scraping metadata . . .'),
